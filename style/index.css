@@ -47,54 +47,93 @@ blockquote, q {
 }
 *{box-sizing:
 border-box;}
-
+    #main-image{
+        height:80vh;
+        background-color:rgb(8, 8, 8);
+        background-image:url("https://images.unsplash.com/photo-1588755020458-4b35ac66b60e?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800&q=60");
+        background-repeat:no-repeat;
+        background-size:cover;
+        background-position:center;
+        background-attachment:fixed;
+      }
 h1{
-    color: ivory;
+    color:black;
 }
-#home{
+h1{
+    margin: 9px auto;
+    font-size: 40px;
+}
+  nav a{
+    color:#00CED1;
+    text-decoration:none;
+    letter-spacing:3px;}
+    .links{
+        display: flex;
+        justify-content: space-between;
+        
+    }
+    .container header nav a {
+        margin: 0 10px;
+        border: 1px solid lightgray;
+        padding: 20px;
+        display: inline-block;
+        border: 20px;
+        color: white;
+        text-decoration: none;
+        margin-bottom: 20px;
+        background: rgb(243, 51, 26);
+    }
+    .container header nav a:hover {
+        background: rgb(5, 5, 5);
+        color: rgb(252, 248, 249);}
+.sub-title{
+    margin: 9px auto;
+    font-size: 40px;
+    letter-spacing: 4px;
+}
+.intro{
+    padding: 4%;
+}
+.container{
+    margin: 0 auto;
+    width: 600px;
+}
+#contact-me{
     display: flex;
     justify-content: center;
 }
-#links{
-    width: auto;
+.gallery{
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-items: center;
 }
-.sub-title{
-    display: flex;
-    justify-content: center;
+.gallery div{
+    width: 200px;
+    height:100px ;
+    padding: 1%;
 }
-.sub-title{
-    color: ivory;
+.gallery div img{
+    width: 100%;
+    height: 200%;
+    padding: 5%;
 }
-.main-image{
-    display: flex;
-    justify-content: center;
+
+footer a {
+    margin: 0 10px;
+    border: 1px solid lightgray;
+    padding: 20px;
+    display: inline-block;
+    border: 20px;
+    color: white;
+    text-decoration: none;
+    margin-bottom: 20px;
+    background: rgb(243, 51, 26);}
+footer a:hover{
+    background: rgb(5, 5, 5);
+    color: rgb(252, 248, 249);  
 }
-.intro{
-    display: flex;
-    justify-content: center;
-}
-.intro{
-    color: ivory;
-}
-.gallery{
-    max-width: 100%;
-    display: flex;
-    flex-direction: row;
-    justify-content: space-evenly;
-    align-items: flex-start;
-}
-.gallery{
-    color: ivory;
-}
-#contact-me{
-    display: flex;
-    justify-content: center;
-}
-#contact-me{
-    background-color: lightcoral;
-    color: ivory;
-    padding: 3.5%;
+
+footer{
+    background-color: rgba(36, 37, 36, 0.671);
+    padding: 2%;
 }
